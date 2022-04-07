@@ -1,12 +1,11 @@
 # **React E-Commerce**
 ### Applicazione Web-Based per la visualizzazione e la gestione completa di un sistema E-Commerce.
-
 #
-
 ## **Tecnologie utilizzate:**
 - ### HTML5
 - ### CSS3 precompilato con Sass
 - ### Node.js
+- ### React
 - ### MySQL
 
 #
