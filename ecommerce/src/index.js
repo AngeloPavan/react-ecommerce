@@ -9,7 +9,12 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HeaderNavbar />
+    <div className="container-fluid">
+      <div className="row">
+        <HeaderNavbar />
+      </div>
+    </div>
+    
   </React.StrictMode>
 );
 
