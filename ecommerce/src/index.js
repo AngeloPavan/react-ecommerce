@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import App from './App';
+import HeaderNavbar from './HeaderNavbar'
+import 'bootstrap/dist/css/bootstrap.css';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HeaderNavbar />
   </React.StrictMode>
 );
 
