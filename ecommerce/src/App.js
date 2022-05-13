@@ -1,4 +1,4 @@
-import './App.css';
+import './assets/css/App.css';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
     <nav className="navbar navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img src="." alt="" width="30" height="24" class="d-inline-block align-text-top">
+          <img src="." alt="" width="30" height="24" class="d-inline-block align-text-top" />
           Bootstrap
         </a>
       </div>  

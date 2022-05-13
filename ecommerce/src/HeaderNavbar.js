@@ -1,15 +1,17 @@
 import logo from './assets/img/logo.png'
+import './assets/css/HeaderNavbar.css';
+
 
 function HeaderNavbar() {
   return (
-    <nav className="navbar navbar-expand-md navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand mx-3" href="#">
           <img src={logo} alt="" height="50px" className="d-inline-block" />    
         </a>
 
-        <div className="me-4">
-          <h3 className="align-items-center mb-0">Global Market</h3>
+        <div className="me-4 d-none d-sm-block">
+          <h3 className="align-items-center mb-0 company-logo fs-2">Global Market</h3>
         </div>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
