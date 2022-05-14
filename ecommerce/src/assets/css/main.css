@@ -5,6 +5,10 @@ body{
     font-family: 'Radio Canada', sans-serif !important;
 }
 
-.company-logo{
+.koulen-font{
     font-family: 'Koulen', cursive;
+}
+
+.lateral-navbar{
+    border-right: 2px solid #0000001f;
 }

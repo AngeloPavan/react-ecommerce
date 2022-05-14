@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import HeaderNavbar from './HeaderNavbar'
+import LateralNavbar from './LateralNavbar';
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/css/index.css';
 import './assets/css/main.css';
@@ -12,6 +13,14 @@ root.render(
     <div className="container-fluid">
       <div className="row">
         <HeaderNavbar />
+      </div>
+      <div className="row">
+        <div className="col-md-2 lateral-navbar">
+          <LateralNavbar />
+        </div>
+        <div className="col-md-10">
+
+        </div>
       </div>
     </div>
     
