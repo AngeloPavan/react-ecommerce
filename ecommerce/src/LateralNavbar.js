@@ -9,15 +9,15 @@ function LateralNavbar() {
 
       <div className="ms-4">
         <div className="row">
-          <h5 className="my-2">Capelli</h5>
+          <h5 className="my-2">Tavoli</h5>
         </div>
 
         <div className="row">
-          <h5 className="my-2">Corpo</h5>
+          <h5 className="my-2">Sedie</h5>
         </div>
 
         <div className="row">
-          <h5 className="my-2">Mani</h5>
+          <h5 className="my-2">Elettrodomestici</h5>
         </div>
       </div>   
     </div>

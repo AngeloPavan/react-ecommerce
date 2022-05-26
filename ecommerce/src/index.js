@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import HeaderNavbar from './HeaderNavbar'
+import HeaderNavbar from './HeaderNavbar';
 import LateralNavbar from './LateralNavbar';
+import Storia from './storia';
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/css/index.css';
 import './assets/css/main.css';
+import content from './HeaderNavbar'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +21,16 @@ root.render(
           <LateralNavbar />
         </div>
         <div className="col-md-10">
-
+          <script>
+            setContent("home");
+            if(content === "home"){
+              <div>ciao</div>
+            }
+            else if(content === "storia"){
+              <Storia />
+            }
+          </script>
+          {/* <Storia /> */}
         </div>
       </div>
     </div>
